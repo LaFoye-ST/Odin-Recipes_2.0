@@ -91,6 +91,16 @@ ul {
     padding: 10px;
 }
 
+.header .container a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header .container a:hover {
+    color: lightblue;
+}
+
 .boxes .container {
     display: flex;
     justify-content: space-between;
@@ -103,6 +113,10 @@ ul {
 
 .boxes a:hover {
     color: lightblue;
+}
+
+.boxes ol {
+    margin-left: 20px;
 }
 
 .box {
