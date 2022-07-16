@@ -96,6 +96,15 @@ ul {
     justify-content: space-between;
 }
 
+.boxes a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.boxes a:hover {
+    color: lightblue;
+}
+
 .box {
     flex: 1;
     background-color: #0a51cc;
